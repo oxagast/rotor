@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include "rotor.h"
 #include "rotor-extra.h"
-#include "ntru.h"
+#include "../include/ntru.h"
 
 void rotor_show_ntru_params() {
   printf("rotor - version %i.%i\n(c)2016 mrn@sdf.org\n\n",ROTOR_MAJOR,ROTOR_MINOR);

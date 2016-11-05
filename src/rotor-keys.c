@@ -12,14 +12,14 @@
 #include <unistd.h>
 #include <string.h>
 #include <termios.h>
-#include "ntru.h"
+#include "../include/ntru.h"
 #include "shake.h"
-#include "yescrypt.h"
-#include "passwdqc.h"
-#include "blake512.h"
+#include "../include/yescrypt.h"
+#include "../include/passwdqc.h"
+#include "../include/blake512.h"
 #include "rotor.h"
 #include "rotor-keys.h"
-#include "progressbar.h"
+#include "../include/progressbar.h"
 
 #ifdef __ROTOR_MLOCK
 #include <sys/mman.h>

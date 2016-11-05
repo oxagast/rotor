@@ -5,6 +5,8 @@
  *                                                                           *
  * rotor-console.c - console functions                                       *
  *****************************************************************************/
+#include "stdint.h"
+#include "inttypes.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -12,7 +14,7 @@
 #include <termios.h>
 #include "rotor.h"
 #include "rotor-console.h"
-#include "ntru.h"
+#include "../include/ntru.h"
 
 /*
  * rotor_console_secret: we've got fgets, how bout fgetsecrets

@@ -13,10 +13,10 @@
 #include <termios.h>
 #include <unistd.h>
 #include <string.h>
-#include "ntru.h"
+#include "../include/ntru.h"
 #include "rotor.h"
-#include "yescrypt.h"
-#include "passwdqc.h"
+#include "../include/yescrypt.h"
+#include "../include/passwdqc.h"
 #include "rotor-crypt.h"
 #include "rotor-keys.h"
 #include "rotor-extra.h"

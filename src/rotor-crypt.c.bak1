@@ -15,7 +15,6 @@
 #include <math.h>
 #include <termios.h>
 #include "../include/ntru.h"
-#include "../libntru/src/err.h"
 #include "shake.h"
 #include "salsa20.h"
 #include "rotor.h"
